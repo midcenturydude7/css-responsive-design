@@ -11,9 +11,18 @@ body {
 .parent {
  background-color: #23424A;
  padding: 50px;
+ margin: 0 auto;
+ width: 80%;
 }
 
 .child {
  background-color: #38CFD9;
+ width: 50%;
  height: 250px;
+ padding: 3em;
+ line-height: 1.5em;
+}
+
+.child p {
+ margin-top: 1.5em;
 }
