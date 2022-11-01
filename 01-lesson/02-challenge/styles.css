@@ -21,9 +21,12 @@ h1 span {
  color: #B7832F;
 }
 
-img {
+.img {
  max-width: 100%;
- display: cover;
+ height: 15rem;
+ background-color: black;
+ background: url("img/elephants.jpg") no-repeat;
+ background-size: cover;
 }
 
 h2 {
@@ -63,6 +66,15 @@ p {
 
 .col-3 {
  width: 70%;
+}
+
+@media (max-width: 600px) {
+ .columns {
+  flex-direction: column;
+ }
+ .col-1, .col-2, .col-3 {
+  width: 100%;
+ }
 }
 
 .col-bg {
