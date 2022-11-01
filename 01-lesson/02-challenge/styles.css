@@ -45,6 +45,7 @@ p {
 .columns {
  display: flex;
  justify-content: space-between;
+ align-items: stretch;
  margin: 1em 0;
 }
 
