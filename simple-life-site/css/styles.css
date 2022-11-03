@@ -27,6 +27,7 @@ h3 {
   font-family: "Lora", serif;
   font-weight: 400;
   color: #143774;
+  margin-top: 0;
 }
 
 h1 {
@@ -83,6 +84,9 @@ strong {
   text-decoration: underline;
 }
 
+.article-info {
+  margin: 2em 0;
+}
 
 /* =================
 Layout
@@ -120,14 +124,6 @@ header {
   }
 }
 
-/* main {
-  width: 75%;
-}
-
-aside {
-  width: 20%;
-} */
-
 /* navigation */
 nav ul {
   display: flex;
@@ -163,11 +159,6 @@ nav a:focus {
   color: #707070;
 }
 
-
-/* =================
-Media Queries
-================= */
-
 @media (max-width: 500px) {
   nav ul {
     flex-direction: column;
@@ -178,16 +169,24 @@ Media Queries
   }
 }
 
-/* @media (max-width: 875px) {
-  .container-flex {
-    flex-direction: column;
-  }
+/* articles */
+.article-featured {
+  border-bottom: 3px solid #C2C2C2;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
 
-  header {
-    text-align: center;
-  }
+.article-recent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
 
-  h1, p {
-    white-space: nowrap;
-  }
-} */
+.article-recent-main {
+  order: 2;
+}
+
+.article-recent-secondary {
+  order: 1;
+}
+
