@@ -18,6 +18,13 @@ img {
   display: block;
 }
 
+.image-full {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
 /* =================
 Typography
 ================= */
@@ -33,6 +40,10 @@ h3 {
 h1 {
   font-size: 2rem;
   margin: 0;
+}
+
+h3 {
+  color: #1792d2;
 }
 
 aside h2 {
@@ -96,6 +107,7 @@ strong {
 
 .widget-recent-post-title {
   font-size: 1.125rem;
+  color: #143774;
 }
 
 /* =================
@@ -242,6 +254,7 @@ nav a:focus {
     order: -1;
   }
 }
+
 /* widgets */
 .sidebar-widget {
   border: 20px solid #d4d4d4;
@@ -268,3 +281,8 @@ nav a:focus {
   border-bottom: 5px solid #d4d4d4;
   margin-bottom: 1.5em;
 }
+
+/* .article-recent-secondary .article-image:nth-child(3) #plant {
+  min-height: none;
+  object-fit: stretch;
+} */
