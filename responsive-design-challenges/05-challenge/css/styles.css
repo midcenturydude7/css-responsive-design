@@ -132,11 +132,13 @@ section {
   .column {
     display: flex;
   }
-  
+
   .about-me, 
   .articles {
     width: 100%;
   }
 
-  .articles {}
+  .articles {
+    background: #525252;
+  }
 }
