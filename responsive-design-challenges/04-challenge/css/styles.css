@@ -23,7 +23,7 @@ body {
   /* width: 90%; */
   max-width: 570px;
   margin: 0 auto;
-  /* Padding is another way to ensure screen safe margins */
+  /* Padding is another way to ensure small device/screen safe margins */
   padding: 0 2em;
 }
 
