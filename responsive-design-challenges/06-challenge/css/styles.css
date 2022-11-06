@@ -138,7 +138,28 @@ section {
     width: 100%;
   }
 
-  .articles {
-    background: #525252;
+  .articles.inverse {
+    background: #99D930;
+    color: #252525;
   }
+
+  .articles.inverse .accent-text,
+  .articles.inverse .name,
+  .articles.inverse time,
+  .articles.inverse a {
+      color: currentColor;
+  }
+
+  .articles.inverse a:hover,
+  .articles.inverse a:focus {
+    color: #fff;
+  }
+
+  /* .articles.inverse .btn {
+    background: currentColor;
+  }
+
+  .articles.inverse a .btn {
+    color: #fff;
+  } */
 }
