@@ -51,13 +51,19 @@ header p {
   text-decoration: none;
 }
 
-a:hover,
+/* a:hover,
 a:focus {
   color: whitesmoke;
   text-decoration: underline;
-}
+} */
 
 .header-btn:hover,
 .header-btn:focus {
-  background: #38ced977;
+  background: #02e7f7;
+}
+
+.header-btn a:hover,
+.header-btn a:focus {
+  text-decoration: underline;
+  color: whitesmoke;
 }
