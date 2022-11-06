@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 5em auto;
+  width: 90%;
+}
+section {
+  background-color: aquamarine;
+  color: darkgray;
+  margin: 2em auto;
+}
+
+.one {
+  width: 800px;
+  max-width: 100%;
+}
+
+.two {
+  width: 100%;
+  max-width: 800px;
+}
+
+article {
+  padding: 2em;
+}
