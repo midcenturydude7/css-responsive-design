@@ -34,11 +34,11 @@ p {
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
-.section-title, {
+.section-title {
   color: #87629A;
 }
 
@@ -105,23 +105,42 @@ header {
   padding: .5em 0;
 }
 
+.logo {
+  margin-right: 1em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
 .nav__list {
   margin: 0;
   padding: .5em ;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
   font-size: 1.1rem;
 }
 
 .nav__item {
-  margin-right: 3em;
+  margin-right: 1em;
+}
+
+.nav__item + .nav__item {
+  margin-left: 1em;
 }
 
 .nav__link {
   color: #FFF;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.nav__item--push-right:last-child {
+  margin-right: 0;
 }
 
 .nav__link--button {
