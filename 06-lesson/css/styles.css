@@ -125,6 +125,10 @@ header {
   font-size: 1.1rem;
 }
 
+.nav__list--primary {
+  margin: 0 auto;
+}
+
 .nav__item {
   margin-right: 1em;
 }
