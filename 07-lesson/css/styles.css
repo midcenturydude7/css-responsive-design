@@ -75,16 +75,25 @@ p {
   align-items: center;
 }
 
+.main {
+  padding: 5em 0;
+}
+
 .main-title {
   color: var(--BGCOLOR-02);
   font-size: 2.25rem;
   text-align: center;
-  margin-top: 1em;
+
 }
 
 .main-title--color {
   text-align: left;
   color: var(--BGCOLOR-01);
+}
+
+.main-text {
+  width: 62%;
+  align-items: flex-end;
 }
 
 .article__main {
@@ -106,9 +115,17 @@ p {
 
 .main__bgColor--dark {
   background: var(--BGCOLOR-03);
-  padding: 5em 0;
+}
+
+.main__bgColor--light {
+  background: var(--BGCOLOR-02);
 }
 
 .article__text-colorLight {
   color: #FFF;
+}
+
+.main-image {
+  align-self: stretch;
+  width: 32%;
 }
