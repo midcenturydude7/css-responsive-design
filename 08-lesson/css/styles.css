@@ -16,6 +16,14 @@ body {
   background-color: steelblue;
 }
 
-@media () {
-  
+@media (min-width: 600px) {
+  .example {
+    background-color: blueviolet;
+  }
+}
+
+@media (min-width: 800px) {
+  .example {
+    background-color: aquamarine;
+  }
 }
