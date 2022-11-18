@@ -21,6 +21,7 @@ body {
 
 img {
   max-width: 100%;
+  margin-bottom: 1em;
 }
 
 h1,
@@ -105,5 +106,26 @@ p {
 
   .intro-title {
     font-size: 3.75rem;
+  }
+
+  .order {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 799px) {
+  .order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-three--image {
+    order: -1;
+    max-width: 75%;
+    margin-bottom: 2em;
+  }
+
+  .order h2 {
+    margin-bottom: .25em;
   }
 }
