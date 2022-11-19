@@ -1,7 +1,7 @@
 const navToggleBtn = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".nav");
 
-navToggleBtn.addEventListener("click", function () {
+navToggleBtn.addEventListener("click", () => {
   nav.classList.toggle("nav--visible");
   console.log("Button clicked!");
 });
